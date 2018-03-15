@@ -3,7 +3,7 @@ package com.gefa.ekf.application.domain;
 public abstract class AssetState {
 
     public enum StatusCode {
-        CREATED, DELETED;
+        CREATED, DELETED
     }
 
     private StatusCode statusCode;

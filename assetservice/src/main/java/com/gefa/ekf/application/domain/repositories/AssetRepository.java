@@ -6,13 +6,13 @@ import com.gefa.ekf.application.domain.Asset;
 
 public interface AssetRepository {
 
-	public Long saveAsset(Asset asset);
+	Long saveAsset(Asset asset);
 
-	public void updateAsset(Asset asset);
+	void updateAsset(Asset asset);
 
-	public Asset getAsset(Long assetId);
+	Asset getAsset(Long assetId);
 
-	public Boolean exists(Long assetNumber);
+	Boolean exists(Long assetNumber);
 
-	public List<Asset> getAssetsByDealer(Long gevisNumber);
+	List<Asset> getAssetsByDealer(Long gevisNumber);
 }

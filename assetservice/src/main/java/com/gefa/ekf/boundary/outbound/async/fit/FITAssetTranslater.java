@@ -2,7 +2,7 @@ package com.gefa.ekf.boundary.outbound.async.fit;
 
 import com.gefa.ekf.application.domain.Asset;
 import com.gefa.ekf.application.domain.events.AssetCreatedEvent;
-import com.gefa.ekf.boundary.inbound.async.fit.domain.FITAsset;
+import com.gefa.ekf.boundary.outbound.async.fit.domain.FITAsset;
 
 public class FITAssetTranslater {
 

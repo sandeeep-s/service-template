@@ -9,7 +9,7 @@
         <module>assetservice</module>
 		<module>restclient</module>
 	</modules>
-    <name>ekf-tool-ddd-rest Maven Webapp</name>
+    <name>service-template Maven Webapp</name>
 	<url>http://maven.apache.org</url>
 
 	<dependencies>

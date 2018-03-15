@@ -24,7 +24,6 @@ import org.apache.commons.logging.LogFactory;
 
 import com.gefa.ekf.application.infrastructure.ActiveMQ;
 import com.gefa.ekf.boundary.inbound.async.fit.domain.AbstractTransferObject;
-import com.gefa.ekf.boundary.inbound.async.fit.domain.FITAsset;
 
 @ApplicationScoped
 public class JMSFacade {

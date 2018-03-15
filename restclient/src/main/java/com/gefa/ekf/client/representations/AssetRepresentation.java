@@ -15,10 +15,9 @@ public class AssetRepresentation extends Representation {
 
 	}
 
-	public AssetRepresentation(Asset asset, Link... links) {
+	public AssetRepresentation(Asset asset) {
 		this.assetName = asset.getAssetName();
 		this.assetStatus = asset.getAssetStatus();
-		this.links = Arrays.asList(links);
 
 	}
 
@@ -59,11 +58,6 @@ public class AssetRepresentation extends Representation {
 	@JsonIgnore
 	public Link getRemoveLink() {
 		return getLinkByName("remove");
-	}
-
-	@JsonIgnore
-	public Link getApproveLink() {
-		return getLinkByName("approve");
 	}
 
 }
