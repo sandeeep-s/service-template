@@ -1,5 +1,5 @@
 package com.gefa.ekf.application.exceptions;
 
-public class AssetUpdateException extends Exception{
+public class AssetUpdateException extends RuntimeException{
 
 }

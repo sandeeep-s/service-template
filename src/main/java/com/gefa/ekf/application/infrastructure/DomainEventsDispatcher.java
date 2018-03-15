@@ -14,7 +14,7 @@ import javax.inject.Singleton;
 import com.gefa.ekf.application.domain.events.AssetCreatedEvent;
 import com.gefa.ekf.application.domain.events.DomainEvent;
 import com.gefa.ekf.application.domain.events.handlers.DomainEventHandler;
-import com.gefa.ekf.boundary.fit.outbound.FITAssetCreatedEventHandler;
+import com.gefa.ekf.boundary.outbound.async.fit.FITAssetCreatedEventHandler;
 
 @Singleton
 public class DomainEventsDispatcher {

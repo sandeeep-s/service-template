@@ -8,9 +8,4 @@ public class AssetDeletedState extends AssetState {
 		this.asset = asset;
 	}
 
-	@Override
-	public void moveToDeletedState() {
-		throw new UnsupportedOperationException();
-	}
-
 }

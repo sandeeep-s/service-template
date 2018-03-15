@@ -2,15 +2,17 @@ package com.gefa.ekf.application.domain;
 
 public class AssetCreatedState extends AssetState {
 
-	private Asset asset;
+    private Asset asset;
 
-	public AssetCreatedState(Asset asset) {
-		this.asset = asset;
-	}
+    public AssetCreatedState(Asset asset) {
 
-	@Override
-	public void moveToDeletedState() {
-		asset.setAssetState(new AssetDeletedState(asset));
-	}
+        this.asset = asset;
+    }
+
+    @Override
+    public void moveToDeletedState() {
+
+        asset.setAssetState(new AssetDeletedState(asset));
+    }
 
 }
