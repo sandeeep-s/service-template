@@ -1,0 +1,2 @@
+FROM jboss/wildfly
+
