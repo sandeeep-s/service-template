@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/assetservice/assetservice.iml" filepath="$PROJECT_DIR$/assetservice/assetservice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/restclient/restclient.iml" filepath="$PROJECT_DIR$/restclient/restclient.iml" />
       <module fileurl="file://$PROJECT_DIR$/service-template.iml" filepath="$PROJECT_DIR$/service-template.iml" />
     </modules>
   </component>
